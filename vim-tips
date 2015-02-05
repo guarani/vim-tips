@@ -1,9 +1,7 @@
 # Autocomplete (HTML, etc.), use this plugin:
-        
         http://www.vim.org/scripts/script.php?script_id=1896
-
   For usage, see:
-
         http://stackoverflow.com/a/144168/1305067
 
-# 
+# To write lines to a new file
+:100,200w filename
