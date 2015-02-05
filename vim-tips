@@ -5,3 +5,11 @@
 
 # To write lines to a new file
 :100,200w filename
+
+# Break the current line at 80 characters.
+Esc gq80l
+
+# Break the current line at 80 characters (keep indent in lists).
+# Must add last section to your ~/.vimrc file (see: http://www.methods.co.nz/asciidoc/chunked/ch36.html#X61)
+Esc gq}
+
